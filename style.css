@@ -1,0 +1,46 @@
+body {
+  background-color: #259eee;
+  background-image: url(../background2.webp);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.rounded-img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.762);
+  padding: 0.4em;
+}
+
+.main-text {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  margin: 100px 0px 110px 0px;
+}
+
+.paragraph {
+  text-indent: 25px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.h1-for-music {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.video-play {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
