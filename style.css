@@ -94,8 +94,10 @@ body {
   margin-top: 100px;
 }
 
-.video-play {
+.video {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  height: auto;
+  width: 100%;
 }
