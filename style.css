@@ -1,10 +1,9 @@
 body {
-  background-color: #259eee;
-  background-image: url(../background2.webp);
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background-image: url(./pexels-lukas-296283.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
-  background-repeat: repeat;
 }
 
 @media screen and(min-width:992px) {
@@ -45,6 +44,32 @@ body {
   padding: 0.4em;
 }
 
+.title {
+  font-size: 45px;
+  line-height: 45px;
+}
+.title span {
+  display: inline;
+  background-color: rgba(174, 0, 255, 0.684);
+  box-shadow: -5px 0 0 rgba(174, 0, 255, 0.684),
+    5px 0 0 rgba(174, 0, 255, 0.684);
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.info {
+  font-size: 25px;
+  line-height: 25px;
+}
+.info span {
+  display: inline;
+  background-color: rgba(174, 0, 255, 0.684);
+  box-shadow: -5px 0 0 rgba(174, 0, 255, 0.684),
+    5px 0 0 rgba(174, 0, 255, 0.684);
+  color: #ffffff;
+  font-size: 20px;
+}
+
 .main-text {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
@@ -65,7 +90,6 @@ body {
 }
 
 .h1-for-music {
-  color: aliceblue;
   text-align: center;
   margin-top: 100px;
 }
